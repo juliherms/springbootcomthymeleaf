@@ -1,4 +1,5 @@
-package br.com.heldesk.controller;
+package br.com.helpdesk.controller;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import br.com.helpdesk.service.IncidenteService;
 import br.com.helpdesk.service.ReleaseService;
 import br.com.helpdesk.service.SistemaService;
+
 
 /**
  * Classe responsavel por receber as requisicoes e retornar para a view
