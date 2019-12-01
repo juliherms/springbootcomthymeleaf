@@ -30,7 +30,7 @@ public class Incidente implements java.io.Serializable {
 	private Sistema sistema;
 
 	@ManyToOne
-	@JoinTable(name = "incidente_release", joinColumns = @JoinColumn(name = "incidente_fk"), inverseJoinColumns = @JoinColumn(name = "incidente_fk"))
+	@JoinTable(name = "incidente_release", joinColumns = @JoinColumn(name = "incidente_fk"), inverseJoinColumns = @JoinColumn(name = "release_fk"))
 	private Release release;
 
 	private String status;
